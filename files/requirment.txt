@@ -1,0 +1,17 @@
+streamlit
+pandas
+matplotlib
+
+
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+
+project/
+│
+├── app.py                # Streamlit UI (frontend)
+├── data_processing.py    # Data cleaning, preprocessing
+├── analysis.py           # EDA, insights, ML logic
+├── utils.py              # helper functions
+├── data/                 # dataset
+└── requirements.txt
