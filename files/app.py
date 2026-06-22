@@ -4,7 +4,7 @@
 # ============================================================
 import subprocess
 subprocess.run(["pip", "install", "xgboost", "--break-system-packages"], capture_output=True)
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import streamlit as st
 import joblib
 import numpy as np
